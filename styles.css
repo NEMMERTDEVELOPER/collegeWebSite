@@ -3,7 +3,7 @@ body {
 
 }
 
-nav ul li {
+/*nav ul li {
     list-style-type: square;
     border-style: solid;
     border-color: c9008d;
@@ -11,56 +11,63 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
-}
+}*/
 
 ul {
     list-style-type: none;
     padding: 0px;
 }
-a {
-    text-decoration: none;
-}
+
 header{
     grid-column: 1/4;
     background-color:gold;
     text-align-last: center;
     padding: 20px;
-    font-family: 'Tenor Sans', sans-serif;
-    ;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
 }
+
  img {
      height: 100;
      width: 1000;
      float: right;
 }
+
 aside {
     grid-column: 3/4;
     background-color: gold; 
     text-align: center;
 }
+.sports {
+
+}
+
 footer {
     grid-column: 1/4;
     background-color: gold;
     text-align: center;
 }
-.underline{
+
+.underline {
     text-decoration: underline;
     background-color: bisque;
 }
+
 #courses {
     width: 25%;
 }
+
 p { 
     font-size: 10px;
     width: 50%;
  }
+
  .navbar {
     position: absolute;
-    top: 164%; /* Vertically center the navbar */
+    top: 164%; 
     right: 0;
-    transform: translateY(-50%); /* Adjust for vertical centering */
-    width: 200px; /* Adjust the width as needed */
+    transform: translateY(-50%); 
+    width: 200px; 
     background-color:gold;
     padding: 20px;
 }
@@ -69,22 +76,21 @@ p {
     background-color: #fff;
     margin-bottom: 10px;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
     border-radius: 5px;
     color: #333;
     text-align: center;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .nav-item:hover {
     background-color:bisque;
-    color: #333; /* Change the text color back to its original color */
-    text-decoration: none; /* Remove the underline */
-}
+    color: #333; 
+    text-decoration: none; 
 @media screen and (max-width: 768px) {
     .navbar {
-        position: static; /* Reset position for small screens */
-        width: 100%; /* Full width for small screens */
-    }
+        position: static; 
+        width: 100%; 
+    } 
 }
