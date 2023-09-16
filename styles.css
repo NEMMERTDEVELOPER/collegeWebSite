@@ -88,6 +88,7 @@ p {
     background-color:bisque;
     color: #333; 
     text-decoration: none; 
+}
 @media screen and (max-width: 768px) {
     .navbar {
         position: static; 
