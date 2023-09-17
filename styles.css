@@ -3,20 +3,16 @@ body {
 
 }
 
-/*nav ul li {
-    list-style-type: square;
-    border-style: solid;
-    border-color: c9008d;
-}
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}*/
+
 
 ul {
     list-style-type: none;
     padding: 0px;
 }
+
+/*li {
+    text-size-adjust: 25px;
+}*/
 
 header{
     grid-column: 1/4;
@@ -38,8 +34,34 @@ aside {
     background-color: gold; 
     text-align: center;
 }
-.sports {
+ 
+a {
+  color: black;
+  background-color: bisque;
+  }
 
+.custom-underline  {
+    text-decoration: none; /* Remove the default underline */
+    border-bottom: 2px solid gold; /* Add a blue underline using border */
+  }
+
+.custom-underline a:hover {
+    background-color: white !important;
+}
+
+.sports li {
+    text-decoration-color: black;
+
+}
+
+.sports li a {
+    background-color: white !important;
+}
+
+.sports a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: gold; 
 }
 
 footer {
@@ -48,12 +70,23 @@ footer {
     text-align: center;
 }
 
-.underline {
+.underline  {
     text-decoration: underline;
+    text-decoration-color: gold;
     background-color: bisque;
 }
 
-#courses {
+.underline li a{
+   color: black;
+   background-color: gold; 
+}
+
+.degree li a:hover {
+    background-color: white !important;
+    text-decoration: underline;
+}
+
+ #courses {
     width: 25%;
 }
 
